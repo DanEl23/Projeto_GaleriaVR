@@ -1,0 +1,33 @@
+# Este ficheiro diz ao Git para ignorar ficheiros e pastas específicos do Unity.
+
+# Pastas de cache e de bibliotecas do Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Ficheiros de IDE e de sistema operativo
+.vs/
+.vscode/
+.idea/
+*.suo
+*.userprefs
+*.sln
+*.csproj
+*.unityproj
+.DS_Store
+
+# Ficheiros de crash
+sysinfo.txt
+crash.log
+
+# Ficheiros de build
+*.apk
+*.aab
+*.app
+*.exe
+*.dll
+*.pdb
